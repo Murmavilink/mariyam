@@ -1,0 +1,19 @@
+$accent: #E9138D;
+$default: #323232;
+
+
+%lora-500 {
+    font-family: 'Lora-Medium', sans-serif;
+    font-weight: 500;
+}
+
+%nunito-400 {
+    font-family: 'Nunito-Regular', sans-serif;
+    font-weight: 400;
+}
+
+%flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
