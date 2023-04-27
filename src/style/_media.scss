@@ -4,10 +4,11 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            flex-basis: 180px;
         }
         
         &__top {
-            display: block;
+            display: flex;
         }
 
         &__btns {
@@ -158,8 +159,14 @@
     .title {
         font-size: 34px;
     }
+}
 
-    
+@media(max-width: 660px) {
+    .header {
+        &__top {
+            display: block;
+        }
+    }
 }
 
 @media(max-width: 560px) {
@@ -194,9 +201,6 @@
     }
 }
 
-// @media(max-width: 475px) {
-
-// }
 
 @media(max-width: 425px) {
     .info {
